@@ -1,0 +1,18 @@
+# eureka 配置
+eureka:
+  client:
+    service-url:
+      #eureka 集群地址 
+      defaultZone: http://localhost:8762/eureka,http://localhost:8763/eureka
+      #忽略eureka
+    register-with-eureka: false
+  server:
+    # 安全保护（开发模式关闭）
+    enable-self-preservation: false
+# 应用名称
+spring:
+  application:
+    name: eurekaServer-1
+#服务启动端口    
+#server:
+#  port: 8761
