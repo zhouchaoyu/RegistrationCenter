@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>EurekaServer-1</artifactId>
+	<artifactId>eureka-server-1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>EurekaServer-1</name>
+	<name>eureka-server-1</name>
 	<description>Registration Authority project for Spring cloud netfix eureka</description>
 
 	<parent>

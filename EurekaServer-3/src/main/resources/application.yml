@@ -12,7 +12,7 @@ eureka:
 # 应用名称
 spring:
   application:
-    name: eurekaServer-3
+    name: eureka-server-3
 #服务启动端口    
 #server:
 #  port: 8761
